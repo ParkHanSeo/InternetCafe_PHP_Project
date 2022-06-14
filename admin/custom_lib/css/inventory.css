@@ -1,0 +1,36 @@
+.summary_img{
+    width : 100px;
+    height : 60px;
+}
+
+.category_info{
+text-align: left;
+font-size: 18px;
+}
+
+.basic_info_box{
+display: flex;
+flex-direction: row;
+}
+.item_img_box{
+display: flex;
+flex-direction: column;
+}
+.item_info_table{
+margin-left: 2%;
+}
+.item_info_table > table >tbody > tr > th{
+width : 10%;
+}
+.item_info_table > table >tbody > tr > td{
+width : 20%;
+text-align: left;
+}
+.item_info_table > table >tbody > tr > td > input{
+width : 60%;
+}
+.submit_button > button{
+width : 100%;
+}
+
+

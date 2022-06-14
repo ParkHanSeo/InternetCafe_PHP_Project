@@ -249,7 +249,7 @@
           <p class="centered"><a href="profile.html"><img src="<?= PATH ?>img/ui-sam.jpg" class="img-circle" width="80"></a></p>
           <h5 class="centered">Sam Soffes</h5>
           <li class="mt">
-            <a class="active" href="index.html">
+            <a class="active" href="<?= PATH ?>">
               <i class="fa fa-dashboard"></i>
               <span>대시보드</span>
               </a>
@@ -290,8 +290,8 @@
               <span>재고 관리</span>
               </a>
             <ul class="sub">
-              <li><a href="./inventory">재고 목록</a></li>
-              <li><a href="advanced_form_components.html">Advanced Components</a></li>
+              <li><a href="<?= PATH ?>/inventory">재고 목록</a></li>
+              <li><a href="<?= PATH ?>/category">카테고리 관리</a></li>
               <li><a href="form_validation.html">Form Validation</a></li>
               <li><a href="contactform.html">Contact Form</a></li>
             </ul>
