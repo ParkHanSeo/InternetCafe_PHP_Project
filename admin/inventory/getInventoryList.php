@@ -1,4 +1,5 @@
 <?php
+    // 제품 리스트 template 반환 함수.
     function allItems(){
         $sql = 'select * from v_inventory_info order by category_id';
         $result = connect($sql);
@@ -20,7 +21,7 @@
             <td><button onClick = "itemDetail('.$item["id"].')">상세 보기</button> </td>
           </tr>';
         }
-
+        $tag = $tag.'<tr><td id="last_td" colspan="7"><button onClick="addInventory();">제품 추가</button></td></tr>';
         echo $tag;
     }
 

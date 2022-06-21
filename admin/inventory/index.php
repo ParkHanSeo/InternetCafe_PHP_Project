@@ -14,7 +14,7 @@
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th style="width : 20%;"> 상품 이미지 </th>
+                  <th style="width : 15%;"> 상품 이미지 </th>
                   <th> 상품명 </th>
                   <th> 가격 </th>
                   <th> 카테고리 </th>
@@ -33,7 +33,7 @@
       </div>
       <!-- 모달창 -->
       <div class="modal" id="item_detail_modal">
-        <div class="modal_body">제품 상세 정보
+        <div class="modal_body" style="height:680px;">제품 상세 정보
           <div class="close_modal" onClick="close_modal(this);">x</div>
             
         </div>
